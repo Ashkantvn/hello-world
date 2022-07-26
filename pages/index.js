@@ -9,9 +9,6 @@ export default function Home() {
         <title>home</title>
       </Head>
       {" "}
-      <header>
-        <Link href="./about">about</Link>
-      </header>
       <h2>Hello world (home page)</h2>
     </div>
   );

@@ -1,13 +1,15 @@
-
+import navStyle from '../styles/Navbar.module.css';
 import Link from "next/link";
 
-const NavBar = ()=>{
+const Navbar = ()=>{
     return(
-        <header>
+        <header className={navStyle.navbar}>
             <nav>
-                <Link href='/'>Home</Link>
-                <Link href='/about'>About</Link>
+                <Link  href='/'><a className={navStyle.link}>Home</a></Link>
+                <Link  href='/about'><a className={navStyle.link}>About</a></Link>
             </nav>
         </header>
     )
 }
+
+export default Navbar;

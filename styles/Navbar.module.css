@@ -1,0 +1,10 @@
+.navbar{
+    text-align: center;
+    margin: 1em 0;
+    border-bottom: 1px solid #121212;
+    padding: 1em 0;
+    transition: 200ms;
+}
+.link{
+    margin: 0 1em;
+}
